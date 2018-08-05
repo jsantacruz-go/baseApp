@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/juanes/Development/ionic/baseApp/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/home/juanes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/da2ff770fe0a251c82b0856031ad3285/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

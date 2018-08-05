@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "484633744467",
+    "firebase_url": "https://sharetime-fb511.firebaseio.com",
+    "project_id": "sharetime-fb511",
+    "storage_bucket": "sharetime-fb511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484633744467:android:911a106f71ee3a03",
+        "android_client_info": {
+          "package_name": "com.codigogo.tasker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484633744467-uq2p8vej9saig693l12erj818qu4n700.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARSZoLwijVZEj65WtyAF9hdQ5wgi2JLx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

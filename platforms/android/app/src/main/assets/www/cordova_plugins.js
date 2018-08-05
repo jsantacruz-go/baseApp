@@ -9,30 +9,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-splashscreen.SplashScreen",
-    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-    "pluginId": "cordova-plugin-splashscreen",
-    "clobbers": [
-      "navigator.splashscreen"
-    ]
-  },
-  {
-    "id": "cordova-plugin-ionic-webview.IonicWebView",
-    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
-    "pluginId": "cordova-plugin-ionic-webview",
-    "clobbers": [
-      "Ionic.WebView"
-    ]
-  },
-  {
-    "id": "cordova-plugin-ionic-keyboard.keyboard",
-    "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
-    "pluginId": "cordova-plugin-ionic-keyboard",
-    "clobbers": [
-      "window.Keyboard"
-    ]
-  },
-  {
     "id": "cordova-plugin-file.DirectoryEntry",
     "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
     "pluginId": "cordova-plugin-file",
@@ -206,6 +182,22 @@ module.exports = [
     "runs": true
   },
   {
+    "id": "cordova-plugin-splashscreen.SplashScreen",
+    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+    "pluginId": "cordova-plugin-splashscreen",
+    "clobbers": [
+      "navigator.splashscreen"
+    ]
+  },
+  {
+    "id": "cordova-plugin-ionic-webview.IonicWebView",
+    "file": "plugins/cordova-plugin-ionic-webview/src/www/util.js",
+    "pluginId": "cordova-plugin-ionic-webview",
+    "clobbers": [
+      "Ionic.WebView"
+    ]
+  },
+  {
     "id": "cordova-plugin-ionic.common",
     "file": "plugins/cordova-plugin-ionic/dist/common.js",
     "pluginId": "cordova-plugin-ionic",
@@ -218,18 +210,44 @@ module.exports = [
     "file": "plugins/cordova-plugin-ionic/dist/guards.js",
     "pluginId": "cordova-plugin-ionic",
     "runs": true
+  },
+  {
+    "id": "cordova-plugin-ionic-keyboard.keyboard",
+    "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+    "pluginId": "cordova-plugin-ionic-keyboard",
+    "clobbers": [
+      "window.Keyboard"
+    ]
+  },
+  {
+    "id": "phonegap-plugin-push.PushNotification",
+    "file": "plugins/phonegap-plugin-push/www/push.js",
+    "pluginId": "phonegap-plugin-push",
+    "clobbers": [
+      "PushNotification"
+    ]
+  },
+  {
+    "id": "cordova-plugin-fcm.FCMPlugin",
+    "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+    "pluginId": "cordova-plugin-fcm",
+    "clobbers": [
+      "FCMPlugin"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-device": "2.0.2",
+  "cordova-plugin-file": "6.0.1",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-ionic-webview": "2.0.2",
+  "cordova-plugin-ionic": "5.0.5",
   "cordova-plugin-ionic-keyboard": "2.1.2",
-  "cordova-plugin-file": "6.0.1",
-  "cordova-plugin-ionic": "5.0.5"
+  "cordova-plugin-whitelist": "1.3.3",
+  "phonegap-plugin-push": "2.1.3",
+  "cordova-plugin-fcm": "2.1.2"
 };
 // BOTTOM OF METADATA
 });
